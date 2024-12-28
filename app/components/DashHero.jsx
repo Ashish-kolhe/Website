@@ -260,8 +260,8 @@ const DashHero = () => {
 
 
 
-            <div className='flex justify-center mt-20 mb-6'>
-              <h1 className='font-black text-xl text-center text-gray-900'>Project Templates 🚀<br /><span className='text-sm font-medium'> "Get started quickly with our pre-built templates. Customize and build your next project with ease! 💡" <br /><a className='text-blue-600 font-bold underline' href="https://coddeit-template.netlify.app/"> Click Here</a> For Preview </span></h1>
+            <div className='flex justify-center mt-20 mb-8'>
+              <h1 className='font-black text-xl text-center text-gray-900 mb-'>Project Templates 🚀<br /><span className='text-sm font-semibold'> "Get started quickly with our pre-built templates. Customize and build your next project with ease! 💡" </span></h1>
             </div>
 
             <div className='flex justify-center '>

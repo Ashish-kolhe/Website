@@ -27,13 +27,13 @@ export default async function Home() {
             </h1>
             <h1 className="text-4xl font-black leading-normal">Make Your First <br />Website
             <span className="flex justify-center -mt-4"> <img className="w-40" src="./line.png" alt="" /></span> </h1>
-            <p className="py-6 font-bold">
-            Create your first site from scratch with practical, hands-on steps—no extras, just building.
+            <p className="py-6 font-bold italic">
+            Thoda theory kam, thoda building zyada. Coddeit sikhaata hai jo zaroori hai—Shurwat karne ke liye, bina unnecessary lectures ke
             </p>
             <PaymentPage />
 
             <div className="flex justify-center mt-4">
-              <div className="flex overflow-hidden  -space-x-5 rtl:space-x-reverse  p-4">
+              <div className="flex overflow-hidden  -space-x-5 rtl:space-x-reverse  pt-4 pb-2">
                 <div className="avatar  ">
                   <div className="w-10 rounded-full  border-white border-4">
                     <img src="./Thor.jpg" />
@@ -76,7 +76,7 @@ export default async function Home() {
                 </div>
               </div>
             </div>
-            <p className="pt-2 pb-10 text-gray-700 italic">
+            <p className=" pb-10 text-gray-700 italic">
               <span className="text-black font-bold">76</span> Students Built Their First Website!
             </p>
             <div >
@@ -104,8 +104,8 @@ export default async function Home() {
 I never thought I’d be able to build a website, but <span className="bg-yellow-200"> with Coddeit, everything just clicked. Now my site’s up and running, and it feels incredible!"</span></p>
       <div className="flex justify-center mt-6">
       <div className="avatar">
-  <div className="w-12 rounded-full">
-    <img src="./user.png" />
+  <div className="w-12 rounded-full border-2 border-secondary">
+    <img className="" src="./Review.jpg" />
   </div>
 </div>
 <p className="text-sm font-bold text-slate-900 ml-4">Rahul Tambe <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://gamestoreforfun.netlify.app/">gamestoreforfun</a></span> </span></p>
@@ -161,10 +161,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
 <div className="flex justify-start">
  
             <div className="text-left mt-20">
-              <p className="font-bold"><span className="text-red-500">✖ </span>Instead of Wasting months Watching Tutorial's</p>
-              <p className="font-bold"><span className="text-green-500">✔ </span>Learn by building real projects.</p>
-              <p className="font-bold"><span className="text-green-500">✔ </span>Focus on solving real-world problems.</p>
-              <p className="font-bold"><span className="text-green-500">✔ </span>Start creating, Don't just consume.</p>
+              <p className="text-gray-900 font-semibold leading-relaxed max-w-md"><span className="text-secondary font-black text-2xl">₹49</span> lifetime? Main bhi soch raha tha, thoda mehenga rakhun, par phir socha, aapko sirf websites banani hai, na ki college ki fee deni hai.</p>
             </div>
             <img className="h-16 mt-14 fill-secondary" src="./up-arrow.png" alt="" />
             </div>
@@ -235,7 +232,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-xl font-bold">What do I get at the end of the course?</div>
                 <div className="collapse-content">
-                  <p>By the end of the course, you’ll have your first fully functional website hosted online. Plus, you’ll gain confidence to start your next project. 🌐</p>
+                  <p className="font-bold text-sm leading-relaxed">By the end of the course, you’ll have your first fully functional website hosted online. Plus, you’ll gain confidence to start your next project. 🌐</p>
                 </div>
               </div>
               <div className="collapse collapse-arrow bg-white">
@@ -266,8 +263,8 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
 <p className="text-xs font-bold text-slate-900 leading-6 ">"<span className="bg-red-200">I wasted months watching tutorials and still couldn’t create a proper website.</span> Then I gave Coddeit a shot, and everything fell into place. Building my first site and seeing it live was a game-changer!"</p>
       <div className="flex justify-center mt-6">
       <div className="avatar">
-  <div className="w-12 rounded-full">
-    <img src="./user.png" />
+  <div className="w-12 rounded-full border-2 border-secondary">
+    <img className="" src="./Review2.jpg" />
   </div>
 </div>
 <p className="text-sm font-bold text-slate-900 ml-4">Anil <br /> <span className="text-xs font-light">Built,<span className="text-blue-500 underline underline-offset-1"><a href="https://textintospeech.netlify.app/">textintospeech</a></span>  </span></p>
