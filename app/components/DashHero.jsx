@@ -279,9 +279,9 @@ const DashHero = () => {
                 <div className="diff-resizer"></div>
               </div>
             </div>
-             
+          <a href='https://drive.google.com/file/d/1gP375bvoT2Mj5bOEoVgxRTJA0VfkHyPA/view?usp=sharing'>
             <button className='btn btn-info btn-outline mt-10 mb-20 text-white' >Download</button>
-            
+            </a>
             <div className='flex justify-center'>
               <div className="diff aspect-[16/9] rounded-3xl max-w-md">
                 <div className="diff-item-1">
@@ -297,9 +297,9 @@ const DashHero = () => {
                 <div className="diff-resizer"></div>
               </div>
             </div>
-          
+          <a href="https://drive.google.com/file/d/1W0vVH_7tebzcM91Ooe3bColOwm027z7L/view?usp=sharing">
             <button className='btn btn-info btn-outline mt-10 mb-20'>Download</button>
-            
+            </a>
 
 
 
