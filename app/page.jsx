@@ -6,6 +6,8 @@ import { redirect } from "next/navigation";
 import PaymentPage from "./components/Payment";
 import { Sign } from "crypto";
 import Footer from "./components/Footer";
+import Caraousel from "./components/Caraousel";
+
 export default async function Home() {
  
   const session = await auth();
@@ -16,11 +18,13 @@ export default async function Home() {
 <div>
 
 </div>
+
       <div className="hero bg-white min-h-screen text-gray-900 ">
   
         <div className="hero-content text-center ">
        
           <div className=" max-w-2xl ">  
+          
           <img className="w-20" src="./arrow.png" alt="" />
             <h1 className="flex justify-center">
              <img className="w-52 " src="./web.gif"/>
@@ -36,37 +40,37 @@ export default async function Home() {
               <div className="flex overflow-hidden  -space-x-5 rtl:space-x-reverse  pt-4 pb-2">
                 <div className="avatar  ">
                   <div className="w-10 rounded-full  border-white border-4">
-                    <img src="./Thor.jpg" />
+                    <img src="./User1.png" />
                   </div>
                 </div>
                 <div className="avatar">
                   <div className="w-10 rounded-full  border-white border-4">
+                    <img src="./User2.png" />
+                  </div>
+                </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
+                    <img src="./User3.png" />
+                  </div>
+                </div>
+                <div className="avatar placeholder" >
+                  <div className="bg-green-900 text-white w-12 rounded-full border-white border-4">
+                    <span className="font-bold text-xl">M</span>
+                  </div>
+                </div>
+                <div className="avatar placeholder" >
+                  <div className="bg-blue-900 text-white w-12 rounded-full border-white border-4">
+                    <span className="font-bold text-xl">A</span>
+                  </div>
+                </div>
+                <div className="avatar">
+                  <div className="w-10 rounded-full border-white border-4">
                     <img src="./profile3.jfif" />
                   </div>
                 </div>
-                <div className="avatar">
-                  <div className="w-10 rounded-full border-white border-4">
-                    <img src="./a.jpg" />
-                  </div>
-                </div>
-                <div className="avatar">
-                  <div className="w-10 rounded-full border-white border-4">
-                    <img src="./Thor.jpg" />
-                  </div>
-                </div>
-                <div className="avatar">
-                  <div className="w-10 rounded-full border-white border-4">
-                    <img src="./a.jpg" />
-                  </div>
-                </div>
-                <div className="avatar">
-                  <div className="w-10 rounded-full border-white border-4">
-                    <img src="./profile3.jfif" />
-                  </div>
-                </div>
-                <div className="avatar">
-                  <div className="w-10 rounded-full border-white border-4">
-                    <img src="./user.png" />
+                <div className="avatar placeholder" >
+                  <div className="bg-red-800 text-white w-12 rounded-full border-white border-4">
+                    <span className="font-bold text-xl">B</span>
                   </div>
                 </div>
                 <div className="avatar placeholder" >
@@ -90,7 +94,13 @@ export default async function Home() {
           </div>
         </div>
       </div>
-       
+<div className="flex justify-center px-10 text-center">
+      <h1 className="italic mt-14 text-sm font-semibold"><span className="text-amber-600">HTML</span>, <span className="text-blue-600">CSS</span>, <span className="text-yellow-500">JS</span>, Next.js, <span className="text-teal-500">DaisyUI</span>, GitHub, <span className="text-sky-500">Tailwind CSS</span>, <span className="text-cyan-500">Netlify</span>—sab kuch milega, bina GST ke!</h1>
+      </div>
+      <div className="flex justify-center mt-4">
+        <Caraousel/>
+      </div>
+
        <div className="hero mt-20 text-center px-20 bg-white " >
       <div className="max-w-md ">
       <div className="rating rating-sm mb-4 ">
@@ -103,16 +113,16 @@ export default async function Home() {
 <p className="text-xs font-bold text-slate-900 leading-6 ">"
 I never thought I’d be able to build a website, but <span className="bg-yellow-200"> with Coddeit, everything just clicked. Now my site’s up and running, and it feels incredible!"</span></p>
       <div className="flex justify-center mt-6">
-      <div className="avatar">
-  <div className="w-12 rounded-full border-2 border-secondary">
-    <img className="" src="./Review.jpg" />
-  </div>
-</div>
+      <div className="avatar placeholder" >
+                  <div className="bg-amber-800 text-white w-12 rounded-full border-white border-4">
+                    <span className="font-bold text-2xl">R</span>
+                  </div>
+                  </div>
 <p className="text-sm font-bold text-slate-900 ml-4">Rahul Tambe <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://gamestoreforfun.netlify.app/">gamestoreforfun</a></span> </span></p>
       </div>
       </div>
       </div>
-      
+    
       <div className="hero min-h-screen mt-20 mb-20  bg-white"  >
         <div className="hero-content text-center">
           <div className="max-w-2xl">
@@ -158,7 +168,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
 </div>
 
 
-<div className="flex justify-start">
+<div className="flex justify-start  ">
  
             <div className="text-left mt-20">
               <p className="text-gray-900 font-semibold leading-relaxed max-w-md"><span className="text-secondary font-black text-2xl">₹49</span> lifetime? Main bhi soch raha tha, thoda mehenga rakhun, par phir socha, aapko sirf websites banani hai, na ki college ki fee deni hai.</p>
@@ -174,7 +184,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
       className="max-w-56 " />
     <div>
       <h1 className="text-5xl font-black"><span className="text-black"><span className="text-secondary">"</span><span className="text-red-600 italic">Break</span> the <span className="text-amber-500 italic underline-offset-1">Learning</span> Barrier<span className="text-secondary">"</span></span></h1>
-      <p className="py-6 font-medium">
+      <p className="py-6 font-semibold">
       "I spent <span className="text-red-500 italic">years</span> learning coding from books and tutorials but never built anything real. Then I realized—only <span className="text-red-500 italic">20% </span> of what I learned was needed to start earning through coding. Now, I focus on building and creating, and I want to help you do the same."
       </p>
       
@@ -251,7 +261,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
                 </div>
               </div>
             </div>
-            <div className="hero mt-20 text-center px-20 bg-white p-10">
+            <div className="hero mt-20 text-center px-10 bg-white p-10">
       <div className="max-w-md ">
       <div className="rating rating-sm mb-4 ">
   <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
@@ -260,13 +270,13 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
   <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" />
   <input type="radio" name="rating-1" className="mask mask-star-2 bg-amber-500" defaultChecked/>
 </div>
-<p className="text-xs font-bold text-slate-900 leading-6 ">"<span className="bg-red-200">I wasted months watching tutorials and still couldn’t create a proper website.</span> Then I gave Coddeit a shot, and everything fell into place. Building my first site and seeing it live was a game-changer!"</p>
+<p className="text-xs font-bold text-slate-900 leading-6 ">"<span className="bg-yellow-200">I wasted months watching tutorials and still couldn’t create a proper website.</span> Then I gave Coddeit a shot, and everything fell into place. Building my first site and seeing it live was a game-changer!"</p>
       <div className="flex justify-center mt-6">
-      <div className="avatar">
-  <div className="w-12 rounded-full border-2 border-secondary">
-    <img className="" src="./Review2.jpg" />
-  </div>
-</div>
+      <div className="avatar placeholder" >
+                  <div className="bg-purple-800 text-white w-12 rounded-full border-white border-4">
+                    <span className="font-bold text-2xl">A</span>
+                  </div>
+                  </div>
 <p className="text-sm font-bold text-slate-900 ml-4">Anil <br /> <span className="text-xs font-light">Built,<span className="text-blue-500 underline underline-offset-1"><a href="https://textintospeech.netlify.app/">textintospeech</a></span>  </span></p>
       </div>
       </div>
