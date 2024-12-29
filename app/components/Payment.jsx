@@ -5,7 +5,7 @@ import { useState } from 'react'
 import React from 'react'
  const PaymentPage = ()=>{
   
-    const AMOUNT = 1;
+    const AMOUNT = 49;
     const [isProcessing,setIsProcessing] = useState(false);
     const handelPayment = async ()=>{
         setIsProcessing(true);
@@ -18,7 +18,7 @@ import React from 'react'
                 amount: AMOUNT * 100,
                 currency: "INR",
                 name: "Coddeit",
-                description: "Learn Programming the Right way!",
+                description: " Your First Website is on the Way!",
                 order_id: data.orderId,
                 handler: function (response) {
                     console.log("Payment Successful",response);
