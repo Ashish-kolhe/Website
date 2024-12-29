@@ -12,7 +12,7 @@ const page = () => {
       We’re here to help! For questions, support, or feedback, reach out to us:
       </p>
       <ul className='ml-4'>
-<li>&bull; <span className='font-bold'>Email:</span> <span className='italic font-semibold'>contact@coddeit.site</span> </li>
+<li>&bull; <span className='font-bold'>Email:</span> <span className='italic font-semibold'>contact@coddeit.site</span> or <span className='italic font-semibold'>contact.coddeit@gmail.com</span> </li>
 <li>&bull; <span className='font-bold'>Phone:</span> 9226132772</li>
 <li>&bull; <span className='font-bold'>Operational Office:</span> Kalyan-Road, Ahmed Nagar, Maharashtra 414001</li>
 

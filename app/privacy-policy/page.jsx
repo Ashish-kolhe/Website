@@ -47,7 +47,7 @@ const page = () => {
         <li>&bull; Access and update your personal information.</li>
         <li>&bull; Request the deletion of your data.</li>
         <li>&bull; Opt out of promotional communications.</li>
-        <p className='py-4'>To exercise these rights, contact us at <span className='italic font-semibold'>contact@coddeit.site</span>.</p>
+        <p className='py-4'>To exercise these rights, contact us at <span className='italic font-semibold'>contact@coddeit.site</span> or <span className='italic font-semibold'>contact.coddeit@gmail.com</span> .</p>
       </ul>
       <h1 className="text-2xl font-extrabold pb-4 pt-8">6. Changes to This Policy</h1>
       <p>We may update this Privacy Policy periodically. Any changes will be communicated via email or website notifications.
