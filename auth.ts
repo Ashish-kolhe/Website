@@ -9,6 +9,10 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     }),
   ],
   secret: process.env.AUTH_SECRET,
+  session: {
+    // Set session maxAge to 1 year (in seconds)
+    maxAge: 365 * 24 * 60 * 60, // 1 year in seconds
+  },
   callbacks: {
     async signIn({ account, profile }) {
       if (account?.provider === "google") {

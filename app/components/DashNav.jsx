@@ -45,7 +45,7 @@ const DashNav = () => {
     <li ><a href='#templates'>Templates</a></li>
     <div className="divider "></div>
 
-  
+  <SignOut/>
   </ul>
 </div>
   </div>
