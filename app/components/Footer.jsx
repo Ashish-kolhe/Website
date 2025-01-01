@@ -5,10 +5,18 @@ const Footer = () => {
     <div>
      
     <footer className="footer footer-center bg-white text-gray-950 rounded p-10">
+    
+      <div className='flex justify-items-center border-2 border-secondary rounded-2xl p-2 '>
+      <a href="/refer">
+      <img className='w-12' src="./rupee.gif" alt="" /></a>
+<a href="/refer"><h1 className='text-sm font-bold text-secondary'>Refer & Earn</h1></a>
+      </div>
+   
 <nav className="grid grid-flow-col gap-4 font-bold">
 <a href='/about-us' className="link link-hover">About us</a>
 <a href='/contact-us' className="link link-hover">Contact us</a>
 <a href='/privacy-policy' className="link link-hover">Privacy Policy</a>
+
 <a href='/refund-policy' className="link link-hover">Refund Policy</a>
 <a href='/termsandconditions' className="link link-hover">Terms & Conditions</a>
 </nav>
