@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div>
     <ReferNav/>
-  <div className=" flex-row justify-items-center mt-4 ">
+  <div className=" flex-row justify-items-center mt-4 mb-20">
   <img className='w-24' src="./rupee.gif" alt="" />
   <h1 className="font-black text-sm text-gray-900 mt-2">Be the First to Refer and Earn!</h1>
   <div className="overflow-x-auto mt-8 border-2 border-secondary rounded-2xl">
@@ -59,7 +59,9 @@ const page = () => {
 <h1 className="font-black text-sm text-gray-800 mt-3">Total Estimated Earnings for <span className="text-green-500 ">100</span> Referrals:</h1>
 <h1 className="text-3xl font-black text-secondary mt-1 mb-8">₹1500</h1>
 <h1 className="text-xs font-black text-gray-700 mt-1 mb-20">If you are already registered, <a className='text-blue-600 underline' href="https://refer-coddeit.vercel.app/">Click Here</a> 👈</h1>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceGYvXY7pPzjAvZlYTqHpOPMzeGlNJfMkO2DkbhXuGqxOxdQ/viewform?embedded=true" width="400" height="1400"  >Loading…</iframe>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceGYvXY7pPzjAvZlYTqHpOPMzeGlNJfMkO2DkbhXuGqxOxdQ/viewform?embedded=true" width="400" height="200"  >Loading…</iframe>
+
     </div>
     </div>
   )
