@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div>
     <ReferNav/>
-  <div className=" flex-row justify-items-center mt-4 mb-20">
+  <div className=" flex-row justify-items-center mt-4 pb-20">
   <img className='w-24' src="./rupee.gif" alt="" />
   <h1 className="font-black text-sm text-gray-900 mt-2">Be the First to Refer and Earn!</h1>
   <div className="overflow-x-auto mt-8 border-2 border-secondary rounded-2xl">
