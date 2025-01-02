@@ -3,16 +3,18 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-     
-    <footer className="footer footer-center bg-white text-gray-950 rounded p-10">
-    
-      <div className='flex justify-items-center border-2 border-secondary rounded-2xl p-2 '>
-      <a href="/refer">
-      <img className='w-12' src="./rupee.gif" alt="" /></a>
-<a href="/refer"><h1 className='text-sm font-bold text-secondary'>Refer & Earn</h1></a>
-      </div>
    
-<nav className="grid grid-flow-col gap-4 font-bold">
+    <footer className="footer footer-center bg-white text-gray-950 rounded pb-10">
+    <div className='divider divider-secondary flex w-full px-4'>
+      <div className='flex justify-items-center border-2 border-secondary rounded-t-2xl p-2 '>
+      <a href="/refer">
+      <img className=' w-24' src="./rupee.gif" alt="" /></a>
+
+      </div>
+      
+      </div>
+      <a href="/refer"><h1 className=' badge-secondary rounded-lg text-white font-bold py-1 px-2 -mt-12 '>Refer & Earn</h1></a>
+<nav className="grid grid-flow-col gap-4 font-bold  -mb-8">
 <a href='/about-us' className="link link-hover">About us</a>
 <a href='/contact-us' className="link link-hover">Contact us</a>
 <a href='/privacy-policy' className="link link-hover">Privacy Policy</a>
@@ -21,7 +23,7 @@ const Footer = () => {
 <a href='/termsandconditions' className="link link-hover">Terms & Conditions</a>
 </nav>
 <nav>
-<div className="grid grid-flow-col gap-4">
+<div className="grid grid-flow-col gap-4 -mb-8">
   <a href='https://instagram.com/ashishkolhe_'>
   <kbd className="kbd p-2 m-6 kbd-lg bg-white"><svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512"><path fill="#ff00d4" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></kbd>
   </a>
