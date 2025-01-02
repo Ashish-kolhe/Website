@@ -101,7 +101,7 @@ export default async function Home() {
         <Caraousel/>
       </div>
 
-       <div className="hero mt-20 text-center px-20 bg-white " >
+       <div className="hero mt-10 text-center px-20 bg-white " >
       <div className="max-w-md ">
       <div className="rating rating-sm mb-4 ">
   <input type="radio" name="rating-4" className="mask mask-star-2 bg-amber-500" />
@@ -114,19 +114,28 @@ export default async function Home() {
 I never thought I’d be able to build a website, but <span className="bg-yellow-200"> with Coddeit, everything just clicked. Now my site’s up and running, and it feels incredible!"</span></p>
       <div className="flex justify-center mt-6">
       <div className="avatar placeholder" >
-                  <div className="bg-amber-800 text-white w-12 rounded-full border-white border-4">
-                    <span className="font-bold text-2xl">R</span>
+                  <div className="bg-white text-white w-12 rounded-full border-white border-2">
+                    <span className="loading loading-spinner text-secondary"></span>
                   </div>
                   </div>
-<p className="text-sm font-bold text-slate-900 ml-4">Rahul Tambe <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://gamestoreforfun.netlify.app/">gamestoreforfun</a></span> </span></p>
+                
+<p className="text-sm font-bold text-slate-900 ml-1"><span className="loading loading-dots loading-xs"></span> <br /> <span className="text-xs font-light">Built, <span className="text-blue-500 underline underline-offset-1"><a href="https://gamestoreforfun.netlify.app/">gamestoreforfun</a></span> </span></p>
       </div>
       </div>
       </div>
     
       <div className="hero min-h-screen mt-20 mb-20  bg-white"  >
         <div className="hero-content text-center">
-          <div className="max-w-2xl">
-  
+          <div className="max-w-2xl"> 
+            <div className="flex justify-center">
+            <img className="w-auto h-16 mr-3 mt-2" src="./below2.png" alt="" />
+            <h1 className="text-xl font-bold mb-12 text-gray-900">Built With Coddeit </h1>
+            <img className="w-auto h-16 ml-3 mt-2" src="./below.png" alt="" />
+           
+            </div>
+          <h1 className="flex justify-center mb-16" >
+            <img className="h-1/5 w-auto mb-4 " src="./BuiltWith.png" alt="" />
+            </h1>
           <h1 className="flex justify-center" id="pricing">
             <img className="w-52 mb-4" src="./sleep.gif" alt="" />
             </h1>
@@ -273,11 +282,11 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
 <p className="text-xs font-bold text-slate-900 leading-6 ">"<span className="bg-yellow-200">I wasted months watching tutorials and still couldn’t create a proper website.</span> Then I gave Coddeit a shot, and everything fell into place. Building my first site and seeing it live was a game-changer!"</p>
       <div className="flex justify-center mt-6">
       <div className="avatar placeholder" >
-                  <div className="bg-purple-800 text-white w-12 rounded-full border-white border-4">
-                    <span className="font-bold text-2xl">A</span>
+      <div className="bg-white text-white w-12 rounded-full border-white border-2">
+                    <span className="loading loading-spinner text-black"></span>
                   </div>
                   </div>
-<p className="text-sm font-bold text-slate-900 ml-4">Anil <br /> <span className="text-xs font-light">Built,<span className="text-blue-500 underline underline-offset-1"><a href="https://textintospeech.netlify.app/">textintospeech</a></span>  </span></p>
+<p className="text-sm font-bold text-slate-900 ml-1"><span className="loading loading-dots loading-xs"></span> <br /> <span className="text-xs font-light">Built,<span className="text-blue-500 underline underline-offset-1"><a href="https://textintospeech.netlify.app/">textintospeech</a></span>  </span></p>
       </div>
       </div>
       </div>

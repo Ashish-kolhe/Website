@@ -10,6 +10,7 @@ const Standard = () => {
     <div className="max-w-2xl">
 
         <h1 className="text-2xl font-bold">Welcome <span className='text-secondary'>{getUser()}</span>   </h1>
+                   {/*
                     <div className='flex justify-center my-6'>
                       <h1 className='font-black text-3xl text-center '>Intro Video 🎬 <br /><span className='text-sm font-medium'> "Start your journey here! Get an overview of what you’ll learn and why this course is perfect for you. 🚀" </span></h1>
                     </div>
@@ -28,6 +29,10 @@ const Standard = () => {
                         ></iframe>
                       </div>
         
+                    </div>
+                    */}
+                    <div className='flex justify-center my-8'>
+                    <img className='w-96' src="./DashHero.gif" alt="" />
                     </div>
       <h1 className="text-2xl font-black">Choose Your Approach</h1>
    <div className='flex justify-center gap-10 p-6'>
