@@ -134,7 +134,7 @@ I never thought I’d be able to build a website, but <span className="bg-yellow
            
             </div>
           <h1 className="flex justify-center mb-16" >
-            <img className="h-1/5 w-auto mb-4 " src="./BuiltWith.png" alt="" />
+            <img className="h-1/5 w-auto mb-4 " src="./Built-With.png" alt="" />
             </h1>
           <h1 className="flex justify-center" id="pricing">
             <img className="w-52 mb-4" src="./sleep.gif" alt="" />
