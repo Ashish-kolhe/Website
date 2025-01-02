@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div>
    
-    <footer className="footer footer-center bg-white text-gray-950 rounded pb-10">
-    <div className='divider divider-secondary flex w-full px-4'>
+    <footer className="footer footer-center bg-white text-gray-950 rounded pb-10 px-4">
+    <div className='divider divider-secondary flex w-full '>
       <div className='flex justify-items-center border-2 border-secondary rounded-t-2xl p-2 '>
       <a href="/refer">
       <img className=' w-24' src="./rupee.gif" alt="" /></a>
